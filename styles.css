@@ -1,0 +1,36 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 2% 5%;
+    background: #000 url("https://static.vecteezy.com/system/resources/previews/000/677/302/original/abstract-technology-banner-background.jpg") 0 0 repeat;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2% 5%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    justify-content: space-around;
+}
+
+div {
+    display: inline;
+    flex: 1;
+}
